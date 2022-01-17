@@ -7,9 +7,7 @@ Argos script which gives you a tray icon in Gnome to run asusctl commands (allow
 ## Requirements
 
 - [Argos](https://github.com/p-e-w/argos)
-
 - [asusctl](https://gitlab.com/asus-linux/asusctl)
-
 - [supergfxctl](https://gitlab.com/asus-linux/supergfxctl) (optional, for gpu control)
 
 

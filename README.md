@@ -27,5 +27,5 @@ Argos script which gives you a tray icon in Gnome to run asusctl commands (allow
 
 
 ## Current Functionality
-
+Note: to see the icons, your icon theme needs to have those logos.  I use Papirus Icon theme in Ubuntu.
 ![](screenshot.png)

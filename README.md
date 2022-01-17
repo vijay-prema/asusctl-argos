@@ -18,7 +18,7 @@ Argos script which gives you a tray icon in Gnome to run asusctl commands (allow
 
 2. Put `asus.+.sh` into your Argos scripts folder (usually `~/.config/argos/`)
 
-3. If you want the Asus ROG tray icon to show up, you can [download it](https://gitlab.com/asus-linux/asusctl-gex/-/raw/main/icons/scalable/notification-performance.svg?inline=false) and copy it to `~/.local/share/icons/hicolor/scalable/apps/profile-performance.svg`. You might need to restart Gnome with Alt+F2, type `r` and press enter.
+3. If you want the Asus ROG tray icon to show up, you can [download it](https://gitlab.com/asus-linux/asusctl-gex/-/raw/main/icons/scalable/profile-performance.svg?inline=false) and copy it to `~/.local/share/icons/hicolor/scalable/apps/profile-performance.svg`. You might need to restart Gnome with Alt+F2, type `r` and press enter.
 
 4. Customize the script based on what you want to see.
 

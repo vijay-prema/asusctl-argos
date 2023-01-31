@@ -3,7 +3,7 @@
 GFX=$(supergfxctl -g)
 STATE=$(supergfxctl -S)
 PROF=$(asusctl profile -p)
-BATT=$(cat /etc/asusd/asusd.conf | tr -dc '0-9')
+BATT=$(cat /etc/asusd/asusd.ron | tr -dc '0-9')
 
 echo "| iconName=profile-performance"
 echo "---"
@@ -22,6 +22,7 @@ echo "Charge Limit:\t $BATT% | iconName=battery"
 echo "-- 60% | bash='asusctl -c 60' terminal=false"
 echo "-- 80% | bash='asusctl -c 80' terminal=false"
 echo "-- 100% (OFF) | bash='asusctl -c 100' terminal=false"
+echo "ROG Control Center | bash='rog-control-center' terminal=false iconName=profile-performance"
 echo "---"
 echo "Reset Keyboard LEDs | bash='asusctl led-mode static' terminal=false iconName=keyboard"
 

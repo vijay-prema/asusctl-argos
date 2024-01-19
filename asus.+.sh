@@ -3,7 +3,7 @@
 GFX=$(supergfxctl -g)
 STATE=$(supergfxctl -S)
 PROF=$(asusctl profile -p)
-BATT=$(cat /etc/asusd/asusd.ron | tr -dc '0-9')
+BATT=$(cat /etc/asusd/asusd.ron | grep charge_control_end_threshold | tr -dc '0-9')
 
 echo "| iconName=profile-performance"
 echo "---"

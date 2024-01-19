@@ -2,15 +2,11 @@
 
 Argos script which gives you a tray icon in Gnome to run asusctl commands (allowing control of various functions of Asus laptops)
 
-
-
 ## Requirements
 
 - [Argos](https://github.com/p-e-w/argos)
-- [asusctl](https://gitlab.com/asus-linux/asusctl). Tested on v4.0.7
-- [supergfxctl](https://gitlab.com/asus-linux/supergfxctl) (optional, for gpu control). Tested on v4.0.0
-
-
+- [asusctl](https://gitlab.com/asus-linux/asusctl). Requires v5 or higher
+- [supergfxctl](https://gitlab.com/asus-linux/supergfxctl) (optional, for gpu control). Tested on v4.0.0 and v5.1.2
 
 ## Installation
 
@@ -22,14 +18,13 @@ Argos script which gives you a tray icon in Gnome to run asusctl commands (allow
 
 4. Customize the script based on what you want to see.
 
-
-
 ## Current Functionality
+
 Note: to see the icons, your icon theme needs to have those logos.  I use Papirus Icon theme in Ubuntu.
 ![](screenshot.png)
 
-
 ## Possible Issues
+
 Right now I have not found any issues on my PC but please be aware this script relies on some hardcoded aspects which may require adjustment on some hardware or with some older or future versions of asusctl and supergfxctl.
 
 Terminal substrings and the `tr` command are used to extract the current battery charge limit and CPU profile from longer strings, so if the input string changes then these need to be adjusted.
